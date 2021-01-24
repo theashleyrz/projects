@@ -1,0 +1,41 @@
+html {
+    color: black;
+    font-family: 'IM Fell English', serif;
+    font-size: 15pts;
+  }
+body {
+    background-color: lightsteelblue;
+    text-align: center;
+  }
+  h1{
+    font-size: 67px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+}
+    
+h3{
+    color: black;
+    text-decoration: underline;
+
+}
+
+h2 {
+    font-size: 50px;
+    font-style: normal;
+    text-align: center
+}
+p {
+    color: teal;
+    font-family: 'IM Fell English', serif;
+    letter-spacing: .02em;
+    font-size 60px;
+    font-style: italic;
+    text-align: center
+}
+img{
+    text-align: center;
+}
+h2.overline{
+    text-decoration: overline;
+}
