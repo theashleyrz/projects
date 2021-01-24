@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 109, 130);
+    padding-bottom: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navigation div {
+    transition: all 0.5s;
+    margin: 15px;
+}
+
+.navigation a {
+    color: #da1884;
+    background: #ffc0cb;
+    border: 3px solid#e63e62;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Source Code Pro", monospace;
+    transition: all 0.5s ease-in-out;
+}
+
+.title a {
+    color: #fff;
+    margin: 30px;
+    font-size: 50px;
+    border: none;
+    background-color: rgb(231, 109, 130);
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+}
+
+@media (min-width: 640px) {
+    .title a {
+        font-size: 62px;
+    }
+    .navigation a {
+        font-size: 36px;
+    }
+    /* a {
+          width: 160px;
+      } */
+    .navigation div {
+        transition: all 0.5s;
+        margin: 10px;
+    }
+}
+
+p {
+    font-family: "Alegreya", serif;
+    /* font-weight: 500; */
+}
+
+h3 {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: "Source Code Pro", monospace;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.navigation a:hover {
+    color: #fff;
+    background: #e63e62;
+    border: 3px solid #ce4676;
+}
+
+.title a:hover {
+    text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px, #ff2d95 0px 0px 20px, #ff2d95 0px 0px 30px, #ff2d95 0px 0px 40px, #ff2d95 0px 0px 50px, #ff2d95 0px 0px 75px;
+}
+
+footer {
+    color: #fff;
+    background-color: rgb(61, 0, 23);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    margin: auto;
+    margin-left: 0px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    margin: 20px;
+    margin-right: 0px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}

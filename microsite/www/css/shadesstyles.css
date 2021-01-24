@@ -1,0 +1,106 @@
+/* Note to make this width change different view points*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid darkgray;
+    flex-wrap: nowrap;
+    width: 190px;
+    height: 340px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.name {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+}
+
+.color {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+}
+
+.description {
+    font-family: "Alegreya", serif;
+    font-size: 12px;
+}
+
+.square {
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+}
+
+@media (min-width: 640px) {
+    .card {
+        width: 200px;
+        height: 340px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .square {
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+    }
+}
+
+
+/* Colors */
+
+.piggy_pink .square {
+    background-color: #fddde6;
+}
+
+.cherry_blossom .square {
+    background-color: #ffb7c5;
+}
+
+.baby_pink .square {
+    background-color: #f4c2c2;
+}
+
+.coral_pink .square {
+    background-color: #f88379;
+}
+
+.barbie_pink .square {
+    background-color: #da1884;
+}
+
+.bubblegum_pink .square {
+    background-color: #f58092;
+}
+
+.new_york_pink .square {
+    background-color: #d7837f;
+}
+
+.cotton_candy .square {
+    background-color: #ffbcd9;
+}
+
+.china_pink .square {
+    background-color: #de6fa1;
+}
+
+.pink_lavender .square {
+    background-color: #dbb2d1;
+}
+
+.hot_pink .square {
+    background-color: #ff69b4;
+}
+
+.tango_pink .square {
+    background-color: #e4717a;
+}

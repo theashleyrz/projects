@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+}
+
+.container img {
+    width: 70%;
+    text-align: center;
+    color: #da1884;
+    border: 2px solid #ff7d9f;
+}
+
+
+/* ff7d9f */
+
+body {
+    background-color: rgb(26, 0, 10);
+}
+
+h2 {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: beige;
+}

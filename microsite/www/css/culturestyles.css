@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.first {
+    text-align: center;
+    margin: 10px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .second {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .food {
+        width: 20%;
+    }
+    .gender {
+        width: 20%;
+    }
+    .idioms {
+        width: 20%;
+    }
+    .food {
+        width: 20%;
+    }
+    .toys {
+        width: 20%;
+    }
+}
+
+li {
+    font-family: 'Alegreya', serif;
+}
